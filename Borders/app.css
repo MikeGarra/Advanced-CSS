@@ -1,0 +1,39 @@
+body {
+    background-color: grey;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    background-color: pink;
+}
+
+#one {
+    background-color: #e4a58f;
+    /* The border is 8px outside the size of the div width and height
+       creating a larger box */
+    border-width: 4px;
+    border-color: #a6e2dc;
+    border-style: solid;
+    /* Creates a border the size of the div width and height */
+    /* box-sizing: border-box; */
+}
+
+#two  {
+    background-color: #97d49b;
+    border-width: 4px;
+    border-color: #e4a58f;
+    border-style: dashed groove;
+    border-left-width: 8px;
+}
+
+#three {
+    background-color: #a6e2dc;
+    /* size, style, color is the order (only a single style allowed) */
+    border: 5px dashed #97d49b;
+    border-left-style: solid;
+    border-radius: 10%;
+}
